@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>SoMS Honours program 2022</title>
+    <meta name="description"
+          content="From EEG microstates to continuous phase patterns">
+    <meta name="author" content="Frederic von Wegner">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style"
+          content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/league.css" id="theme">
+    <!--
+    black, white, league, sky, beige, simple, serif, blood, night, moon, solarized
+    -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- Transitions: None, Fade, Slide, Convex, Concave, Zoom -->
+
+        <!-- SLIDE # 1: Looking to do Honours in 2022? -->
+        <section data-transition="fade">
+          <h2>Looking to do Honours in 2022?</h2>
+          <h3>(or Masters or PhD)</h3>
+          <strong>Research information session on July 8, 3-5 pm</strong>
+          <img src="./images/unsw_logo.png" width=400>
+        </section>
+
+        <!-- SLIDE # 2: Computational physiology -->
+        <section data-transition="fade">
+          <div>
+            <small>
+              The SoMS Translational Neuroscience Facility
+              (<a href="https://medicalsciences.med.unsw.edu.au/research/groups/
+                        translational-neuroscience-facility">TNF</a>)
+              runs a theme</small>
+              <br>
+            <strong>
+              <em style="font-variant: small-caps; font-size: 64px">
+                Computational Physiology
+              </em>
+            </strong>
+            <!-- <h3>Computational physiology</h3> -->
+          </div>
+          <div class="fragment">
+            <div style="display: inline-block; vertical-align: middle;">
+              <small>Scan or click the QR code <br> to visit the homepage:</small>
+            </div>
+            <div style="display: inline-block; vertical-align: middle;">
+              <a href="https://tnf-computational-physiology.github.io/home/"
+                 target="_blank"><img src="./images/link_qr.png" width=200
+                                      align="right"></a>
+            </div>
+          </div>
+          <div class="fragment">
+          <img src="./images/soms_tnf.png" width=500>
+          </div>
+          <p>
+            <small>Created by
+            <a href="https://medicalsciences.med.unsw.edu.au/people/dr-frederic-von-wegner">
+            Frederic von Wegner</a>
+            </small>
+          </p>
+        </section>
+
+        <!-- SLIDE # 3: Which areas of physiology? -->
+        <section data-transition="fade">
+
+          <!-- Which areas of physiology? -->
+          <section>
+            <h3>Which areas of physiology are covered?</h3>
+            <ul>
+              <li class="fragment fade-left">Electroencephalography (EEG)</li>
+              <li class="fragment fade-left">Patterns of activity in neuronal networks</li>
+              <li class="fragment fade-left">Wake-sleep transitions</li>
+              <li class="fragment fade-left">Cardio-respiratory signal analysis</li>
+            </ul>
+            <br>
+            <div class="fragment">
+              <a href="#" class="navigate-down">
+                <img class="r-frame" style="background: rgba(255,255,255,0.1);"
+                     width="150"
+                     data-src="https://static.slid.es/reveal/arrow.png"
+                     alt="Down arrow">
+              </a>
+            </div>
+          </section>
+
+          <!-- EEG background (I) -->
+          <section>
+            <h3>EEG background (I)</h3>
+            <img src="./images/eeg_basics1.png"  width=800 align="right">
+          </section>
+
+          <!-- EEG background (II) -->
+          <section>
+            <h3>EEG background (II)</h3>
+            <img src="./images/eeg_basics2.png"  width=800 align="right">
+          </section>
+
+          <!-- EEG network activity -->
+          <section>
+            <h3>EEG network activity</h3>
+            <div>
+              <small>
+              Colour-coding of brain electrical activity measured by EEG. <br>
+              The dots represents the EEG electrodes, covering the skull surface. <br>
+              </small>
+            </div>
+            <!-- controls preload -->
+            <video src="./videos/eeg_graph.webm" width=300 autoplay controls loop preload>
+              Example EEG animation
+            </video>
+            <div>
+              <small>
+                These activity patterns can be analyzed with computational methods<br>
+                <a href="https://frederic-vw.github.io/eeg-patterns/" target="_blank">
+                  Click here for more info...
+                </a>
+              </small>
+            </div>
+          </section>
+
+          <!-- Network models -->
+          <section>
+            <h3>Network models</h3>
+            <div>
+              <small> <!-- style="text-align: left" -->
+              Neural activity can form waves and other patterns <br>
+              In computational models, these patterns are studied in
+              arbitrary network geometries <br>
+              </small>
+            </div>
+            <!-- controls preload -->
+            <video src="./videos/fhn_ws.mp4" width=400 autoplay controls loop preload>
+              Example EEG animation
+            </video>
+          </section>
+
+          <!-- Wake & sleep -->
+          <section>
+            <h3>Wake &amp; sleep</h3>
+            <div>
+              <small>
+              If you are interested to see how these methods have been used to
+              analyze wake and sleep transitions, have a look at some
+              <a href="https://tnf-computational-physiology.github.io/home/publications_table.html"
+                 target="_blank">
+                publications
+              </a>
+              </small>
+              <img src="./images/sleep.png"  width=600 align="center">
+            </div>
+          </section>
+
+          <!-- Cardio-respiratory -->
+          <section>
+            <h3>Cardio-respiratory signal analysis</h3>
+            <div>
+              <small>
+              Here is an example of a computational physiology project that was
+              part of a SoMS Neuroscience Honours thesis (2020):
+              <a href="https://github.com/Frederic-vW/picsdb" target="_blank">
+                Cardio-respiratory waveform analysis
+              </a>
+              </small>
+            </div>
+            <img src="./images/resprate.png"  width=750 align="center">
+            <small>
+              See what kind of analyses the student worked on:<br>
+              <a href="https://github.com/Frederic-vW/picsdb/blob/master/picsdb1_inspect_select.ipynb"
+                 target="_blank">Example notebook script
+              </a>
+            </small>
+          </section>
+
+          <!-- go back up! -->
+          <section>
+            <h2>That's it, time to go back up!</h2>
+            <br>
+            <a href="#/2">
+              <img class="r-frame"
+                   style="background: rgba(255,255,255,0.1);
+                          transform: rotate(180deg);"
+                          width="178" height="238"
+                          data-src="https://static.slid.es/reveal/arrow.png"
+                          alt="Up arrow">
+            </a>
+          </section>
+        </section>
+
+        <!-- SLIDE # 4: skills required -->
+        <section data-transition="fade">
+          <section>
+            <p>
+              <h3>Which skills do I need ?</h3>
+              <p class="fragment fade-in">
+                <span style="font-size: 32px">
+                  This research requires writing your own computer programs
+                </span>
+              </p>
+              <p class="fragment fade-in">
+                <span style="font-size: 32px">
+                  You don't have to be a skilled programmer, but a little experience
+                  with <em>any</em> programming language is a big plus!
+                </span>
+              </p>
+              <p class="fragment fade-in">
+                <span style="font-size: 32px">
+                  Most of my research is written in
+                  <a href="https://www.python.org/" target="_blank">Python</a><br>
+                </span>
+              </p>
+              <div class="fragment">
+                <p>Examples:</p>
+                <a href="#" class="navigate-down">
+                  <img class="r-frame" style="background: rgba(255,255,255,0.1);"
+                       width="150"
+                       data-src="https://static.slid.es/reveal/arrow.png"
+                       alt="Down arrow">
+                </a>
+              </div>
+            </p>
+          </section>
+
+          <section>
+            <p>When I do research, my desktop usually looks like this</p>
+            <img src="./images/desktop.png" width=900></img>
+          </section>
+
+          <section>
+            <p>... or this</p>
+            <img src="./images/jupyter_notebook.png" width=900></img>
+          </section>
+
+        </section>
+
+        <!-- SLIDE # 5: skills to learn -->
+        <section data-transition="fade">
+          <h3>Which skills can I learn ?</h3>
+          <p>
+            <ul>
+              <li class="fragment fade-in-left">Clinical EEG applications (sleep, epilepsy)</li>
+              <li class="fragment fade-in-left">Python (programming language)</li>
+              <li class="fragment fade-in-left">Signal processing (EEG, and others)</li>
+              <li class="fragment fade-in-left">Computational models of neurons and networks</li>
+              <li class="fragment fade-in-left">Machine learning algorithms</li>
+            </ul>
+          </p>
+        </section>
+
+        <!-- SLIDE # 6 Contact? -->
+        <section data-transition="fade">
+          <h3>Contact</h3>
+          <p>Whom can I contact if I'm interested?<p>
+          <p>f.vonwegner@unsw.edu.au<p>
+          Frederic von Wegner /
+          <a href="https://medicalsciences.med.unsw.edu.au/people/dr-frederic-von-wegner"
+             target="_blank">UNSW</a>
+        </section>
+
+      </div>
+    </div>
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/search/search.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        center: true,
+        hash: true,
+        plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight]
+      });
+    </script>
+  </body>
+</html>
